@@ -8,6 +8,8 @@
 
 #import <Cocoa/Cocoa.h>
 
+#import "JYTabView.h"
+#import "DefineMacros.h"
 @interface ViewController : NSViewController
 
 

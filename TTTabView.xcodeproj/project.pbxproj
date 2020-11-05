@@ -12,6 +12,8 @@
 		31A2C7B82552BB6100D7C0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A2C7B72552BB6100D7C0CC /* Assets.xcassets */; };
 		31A2C7BB2552BB6100D7C0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A2C7B92552BB6100D7C0CC /* Main.storyboard */; };
 		31A2C7BE2552BB6100D7C0CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C7BD2552BB6100D7C0CC /* main.m */; };
+		31A2C7CA2553864700D7C0CC /* JYTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C7C92553864700D7C0CC /* JYTabView.m */; };
+		31A2C7CD2553A9DC00D7C0CC /* JYWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A2C7CC2553A9DC00D7C0CC /* JYWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,11 @@
 		31A2C7BC2552BB6100D7C0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31A2C7BD2552BB6100D7C0CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31A2C7BF2552BB6100D7C0CC /* TTTabView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTTabView.entitlements; sourceTree = "<group>"; };
+		31A2C7C82553864700D7C0CC /* JYTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYTabView.h; sourceTree = "<group>"; };
+		31A2C7C92553864700D7C0CC /* JYTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTabView.m; sourceTree = "<group>"; };
+		31A2C7CB2553A9DC00D7C0CC /* JYWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYWindow.h; sourceTree = "<group>"; };
+		31A2C7CC2553A9DC00D7C0CC /* JYWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYWindow.m; sourceTree = "<group>"; };
+		31A2C7CE2553BBB500D7C0CC /* DefineMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefineMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +68,13 @@
 				31A2C7B22552BB6000D7C0CC /* AppDelegate.m */,
 				31A2C7B42552BB6000D7C0CC /* ViewController.h */,
 				31A2C7B52552BB6000D7C0CC /* ViewController.m */,
+				31A2C7CB2553A9DC00D7C0CC /* JYWindow.h */,
+				31A2C7CC2553A9DC00D7C0CC /* JYWindow.m */,
+				31A2C7CE2553BBB500D7C0CC /* DefineMacros.h */,
 				31A2C7B72552BB6100D7C0CC /* Assets.xcassets */,
 				31A2C7B92552BB6100D7C0CC /* Main.storyboard */,
+				31A2C7C82553864700D7C0CC /* JYTabView.h */,
+				31A2C7C92553864700D7C0CC /* JYTabView.m */,
 				31A2C7BC2552BB6100D7C0CC /* Info.plist */,
 				31A2C7BD2552BB6100D7C0CC /* main.m */,
 				31A2C7BF2552BB6100D7C0CC /* TTTabView.entitlements */,
@@ -140,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				31A2C7B62552BB6000D7C0CC /* ViewController.m in Sources */,
+				31A2C7CA2553864700D7C0CC /* JYTabView.m in Sources */,
+				31A2C7CD2553A9DC00D7C0CC /* JYWindow.m in Sources */,
 				31A2C7BE2552BB6100D7C0CC /* main.m in Sources */,
 				31A2C7B32552BB6000D7C0CC /* AppDelegate.m in Sources */,
 			);
