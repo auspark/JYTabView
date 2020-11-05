@@ -71,11 +71,21 @@
 }
 
 -(void)awakeFromNib{
-
+    
 }
 
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
+    if (self->firstHeader&&self->firstView) {
+        NSRect rh=self->firstHeader.frame;
+        NSRect rv=self->firstView.frame;
+        NSBezierPath *path = [NSBezierPath bezierPath];
+        [path moveToPoint:NSMakePoint(rh.origin.x, rh.origin.y)];
+        [path lineToPoint:NSMakePoint(rv.origin.x, rv.origin.y+rv.size.height)];
+        [[NSColor greenColor]set];
+        path.lineWidth=2.0;
+        [path stroke];
+    }
 }
 
 -(void)newTabUnitWithTitle:(NSString *)title{

@@ -12,7 +12,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     // Do any additional setup after loading the view.
     
     NSLogBool(YES);
@@ -22,11 +21,11 @@
 
 -(void)awakeFromNib{
     JYTabView *tab = (JYTabView *)self.view;
-    [tab newTabUnitWithTitle:@"tab1"];
-    [tab newTabUnitWithTitle:@"tab2"];
-    [tab newTabUnitWithTitle:@"tab3"];
-    [tab newTabUnitWithTitle:@"tab4"];
-    [tab newTabUnitWithTitle:@"tab5"];
+    [tab newTabUnitWithTitle:@"tab 1"];
+    [tab newTabUnitWithTitle:@"tab 2"];
+    [tab newTabUnitWithTitle:@"tab 3"];
+    [tab newTabUnitWithTitle:@"tab 4"];
+    [tab newTabUnitWithTitle:@"tab 5"];
     [tab setFrontTab:0];
     
     NSTextField *tf =[[NSTextField alloc]initWithFrame:NSMakeRect(100, 30, 100, 25)];
@@ -36,7 +35,6 @@
     NSTextField *tf1 =[[NSTextField alloc]initWithFrame:NSMakeRect(250, 30,100, 25)];
     tf1.stringValue=@"subviews-1";
     [tab addSubview:tf1 toUnit:0];
-    
 }
 
 - (void)setRepresentedObject:(id)representedObject {
